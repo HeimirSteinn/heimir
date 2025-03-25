@@ -1,0 +1,2 @@
+# heimir
+Lokaverkefni í Viðmótsforritun
