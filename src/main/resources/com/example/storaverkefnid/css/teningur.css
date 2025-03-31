@@ -1,0 +1,25 @@
+.one, .two, .three, .four, .five, .six{
+-fx-background-size: cover;
+-fx-background-position: center;
+-fx-background-repeat: no-repeat;
+-fx-min-width: 100px;
+-fx-min-height: 100px;
+}
+.one{
+-fx-background-image: url("PNG/one.PNG");
+}
+.two{
+-fx-background-image: url("PNG/two.PNG");
+}
+.three{
+-fx-background-image: url("PNG/three.PNG");
+}
+.four{
+-fx-background-image: url("PNG/four.PNG");
+}
+.five{
+-fx-background-image: url("PNG/five.PNG");
+}
+.six{
+-fx-background-image: url("PNG/six.PNG");
+}

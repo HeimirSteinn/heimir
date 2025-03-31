@@ -1,0 +1,25 @@
+.root{
+-fx-font-family: serif;
+}
+.hjarta, .spadi, .tigull, .lauf, .spilabak{
+-fx-background-size: cover;
+-fx-background-position: center;
+-fx-background-repeat: no-repeat;
+-fx-min-width: 100px;
+-fx-min-height: 100px;
+}
+.hjarta{
+-fx-background-image: url("SpilMyndir/hjarta.PNG");
+}
+.spadi{
+-fx-background-image: url("SpilMyndir/spadi.PNG");
+}
+.tigull{
+-fx-background-image: url("SpilMyndir/tigull.PNG");
+}
+.lauf{
+-fx-background-image: url("SpilMyndir/lauf.PNG");
+}
+.spilabak{
+-fx-background-image: url("SpilMyndir/spilabak.PNG");
+}

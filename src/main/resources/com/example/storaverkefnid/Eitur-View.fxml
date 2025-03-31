@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<DialogPane prefHeight="411.0" prefWidth="360.0" stylesheets="@css/eitur.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <header>
+      <AnchorPane prefHeight="351.0" prefWidth="381.0">
+         <children>
+            <Pane layoutX="103.0" layoutY="74.0" prefHeight="157.0" prefWidth="154.0" styleClass="eiturmynd" />
+            <Label layoutX="134.0" layoutY="32.0" text="Eitur Reitur">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="301.0" text="Þu matt velja einn i hinu liðinu til að taka með þer skot">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </header>
+   <ButtonType buttonData="OK_DONE" text="Halda Áfram" />
+</DialogPane>

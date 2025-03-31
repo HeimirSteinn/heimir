@@ -1,0 +1,10 @@
+.eiturmynd{
+-fx-background-position: left;
+-fx-padding: 20px;
+-fx-background-size: 140px 140px;
+-fx-background-repeat: no-repeat;
+-fx-alignment: center-right;
+-fx-min-width: 100px;
+-fx-min-height: 110px;
+-fx-background-image: url("PNG/eitur.png");
+}
