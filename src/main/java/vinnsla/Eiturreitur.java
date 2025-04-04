@@ -11,14 +11,18 @@ public class Eiturreitur {
 
     public Eiturreitur(){
         reitir = new ArrayList<>();
-        reitir.add(5);
-        reitir.add(15);
-        reitir.add(25);
-        reitir.add(35);
-        reitir.add(45);
-        reitir.add(55);
+        reitir.add(2);
+        reitir.add(9);
+        reitir.add(18);
+        reitir.add(29);
+        reitir.add(40);
+        reitir.add(47);
+        reitir.add(51);
+        reitir.add(60);
         reitir.add(65);
-        reitir.add(75);
+        reitir.add(74);
+        reitir.add(77);
+        reitir.add(79);
     }
     public boolean isEiturReitur(int a){
         return reitir.contains(a);

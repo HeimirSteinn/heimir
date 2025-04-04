@@ -21,14 +21,20 @@ public class SlongurStigar {
      */
     public SlongurStigar() {
         slongurStigar = new HashMap<>();
-        slongurStigar.put(3, 9);
-        slongurStigar.put(8, 16);
-        slongurStigar.put(10, 2);
-        slongurStigar.put(11, 16);
-        slongurStigar.put(14, 4);
-        slongurStigar.put(18, 20);
-        slongurStigar.put(19, 17);
-        slongurStigar.put(23, 15);
+        slongurStigar.put(7, 14);
+        slongurStigar.put(15, 6);
+        slongurStigar.put(22, 17);
+        slongurStigar.put(26, 32);
+        slongurStigar.put(35, 28);
+        slongurStigar.put(39, 59);
+        slongurStigar.put(43, 58);
+        slongurStigar.put(49, 31);
+        slongurStigar.put(55, 46);
+        slongurStigar.put(57, 64);
+        slongurStigar.put(68, 73);
+        slongurStigar.put(70, 52);
+        slongurStigar.put(75, 66);
+
         eiturreitur = new Eiturreitur();
         spilareitir = new Spilareitir();
     }

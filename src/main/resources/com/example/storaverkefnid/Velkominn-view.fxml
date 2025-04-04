@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="510.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.storaverkefnid.VelkominnController">
+<AnchorPane prefHeight="510.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.storaverkefnid.VelkominnController">
    <children>
       <Label layoutX="191.0" layoutY="88.0" text="Velkominn">
          <font>
@@ -17,7 +16,7 @@
       <Label layoutX="73.0" layoutY="208.0" text="Blaa Liðið" />
       <Label layoutX="346.0" layoutY="209.0" text="Græna Liðið" />
       <Label layoutX="172.0" layoutY="161.0" text="Slaðu inn nafn liðanna" />
-      <Button fx:id="fxHefjaLeik" onAction="#onHefjaLeik" layoutX="346.0" layoutY="444.0" mnemonicParsing="false" text="Hefja leik" />
+      <Button fx:id="fxHefjaLeik" layoutX="346.0" layoutY="444.0" mnemonicParsing="false" onAction="#onHefjaLeik" text="Hefja leik" />
       <TextField fx:id="fxBlueName" layoutX="20.0" layoutY="255.0" />
       <TextField fx:id="fxGreenName" layoutX="290.0" layoutY="255.0" />
    </children>

@@ -11,14 +11,18 @@ public class Spilareitir {
 
     public Spilareitir(){
         reitir = new ArrayList<>();
-        reitir.add(10);
-        reitir.add(20);
-        reitir.add(30);
-        reitir.add(40);
-        reitir.add(50);
-        reitir.add(60);
-        reitir.add(70);
-        reitir.add(79);
+        reitir.add(5);
+        reitir.add(13);
+        reitir.add(24);
+        reitir.add(33);
+        reitir.add(37);
+        reitir.add(45);
+        reitir.add(53);
+        reitir.add(63);
+        reitir.add(67);
+        reitir.add(72);
+        reitir.add(76);
+        reitir.add(78);
     }
     public boolean isSpilareitur(int a){
         return reitir.contains(a);

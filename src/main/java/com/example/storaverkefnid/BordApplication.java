@@ -11,7 +11,7 @@ public class BordApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(BordApplication.class.getResource("Velkominn-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 620, 570);
+        Scene scene = new Scene(fxmlLoader.load(), 460, 510);
         stage.setTitle("Slönguspil");
         stage.setScene(scene);
         stage.show();

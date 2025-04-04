@@ -26,7 +26,7 @@ public class VelkominnController {
         BordController controller = loader.getController();
         controller.setNames(fxBlueName.getText(), fxGreenName.getText());
         Stage stage = (Stage) fxHefjaLeik.getScene().getWindow();
-        stage.setScene(new Scene(root, 1000, 1000));
+        stage.setScene(new Scene(root, 910, 834));
 
     }
 }

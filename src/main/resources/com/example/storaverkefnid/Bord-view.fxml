@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane fx:id="fxBord" prefHeight="894.0" prefWidth="1097.0" stylesheets="@css/slanga.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.storaverkefnid.BordController">
+<GridPane fx:id="fxBord" prefHeight="834.0" prefWidth="910.0" stylesheets="@css/slanga.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.storaverkefnid.BordController">
     <columnConstraints>
         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -35,88 +35,89 @@
     </rowConstraints>
     <children>
         <Label maxHeight="50.0" maxWidth="50.0" minHeight="98.0" minWidth="88.0" prefHeight="98.0" prefWidth="88.0" styleClass="odd" text="1" GridPane.rowIndex="7" />
-        <Label styleClass="even" text="2" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+        <Label styleClass="eiturmyndin, even" text="2" GridPane.columnIndex="1" GridPane.rowIndex="7" />
         <Label styleClass="stigi, odd" text="3" GridPane.columnIndex="2" GridPane.rowIndex="7" />
         <Label styleClass="even" text="4" GridPane.columnIndex="3" GridPane.rowIndex="7" />
-        <Label styleClass="odd" text="5" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+        <Label styleClass="spilabakid, odd" text="5" GridPane.columnIndex="4" GridPane.rowIndex="7" />
         <Label styleClass="even" text="6" GridPane.columnIndex="5" GridPane.rowIndex="7" />
-        <Label styleClass="odd" text="7" GridPane.columnIndex="6" GridPane.rowIndex="7" />
-        <Label styleClass="stigi, even" text="8" GridPane.columnIndex="7" GridPane.rowIndex="7" />
-        <Label styleClass="odd" text="9" GridPane.columnIndex="8" GridPane.rowIndex="7" />
-        <Label styleClass="slanga, even" text="10" GridPane.columnIndex="9" GridPane.rowIndex="7" />
-        <Label styleClass="stigi, odd" text="11" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+        <Label styleClass="odd, stigi" text="7" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+        <Label styleClass="even" text="8" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+        <Label styleClass="eiturmyndin, odd" text="9" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+        <Label styleClass="even" text="10" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+        <Label styleClass="odd" text="11" GridPane.columnIndex="9" GridPane.rowIndex="6" />
         <Label styleClass="even" text="12" GridPane.columnIndex="8" GridPane.rowIndex="6" />
-        <Label styleClass="odd" text="13" GridPane.columnIndex="7" GridPane.rowIndex="6" />
-        <Label styleClass="slanga, even" text="14" GridPane.columnIndex="6" GridPane.rowIndex="6" />
-        <Label styleClass="odd" text="15" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+        <Label styleClass="spilabakid, odd" text="13" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+        <Label styleClass="even" text="14" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+        <Label styleClass="slanga, odd" text="15" GridPane.columnIndex="5" GridPane.rowIndex="6" />
         <Label styleClass="even" text="16" GridPane.columnIndex="4" GridPane.rowIndex="6" />
         <Label styleClass="odd" text="17" GridPane.columnIndex="3" GridPane.rowIndex="6" />
-        <Label styleClass="stigi, even" text="18" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-        <Label styleClass="slanga, odd" text="19" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+        <Label styleClass="eiturmyndin, even" text="18" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+        <Label styleClass="odd" text="19" GridPane.columnIndex="1" GridPane.rowIndex="6" />
         <Label styleClass="even" text="20" GridPane.rowIndex="6" />
         <Label styleClass="odd" text="21" GridPane.rowIndex="5" />
-        <Label styleClass="even" text="22" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-        <Label styleClass="slanga, odd" text="23" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-        <Label styleClass="even" text="24" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+        <Label styleClass="slanga, even" text="22" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+        <Label styleClass="odd" text="23" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+        <Label styleClass="spilabakid, even" text="24" GridPane.columnIndex="3" GridPane.rowIndex="5" />
         <Label maxHeight="50.0" maxWidth="50.0" minHeight="98.0" minWidth="88.0" prefHeight="98.0" prefWidth="88.0" styleClass="odd" text="25" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-        <Label styleClass="even" text="26" GridPane.columnIndex="5" GridPane.rowIndex="5" />
-        <Label styleClass="stigi, odd" text="27" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+        <Label styleClass="stigi, even" text="26" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+        <Label styleClass="odd" text="27" GridPane.columnIndex="6" GridPane.rowIndex="5" />
         <Label styleClass="even" text="28" GridPane.columnIndex="7" GridPane.rowIndex="5" />
-        <Label styleClass="odd" text="29" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+        <Label styleClass="eiturmyndin, odd" text="29" GridPane.columnIndex="8" GridPane.rowIndex="5" />
         <Label styleClass="even" text="30" GridPane.columnIndex="9" GridPane.rowIndex="5" />
         <Label styleClass="odd" text="31" GridPane.columnIndex="9" GridPane.rowIndex="4" />
-        <Label styleClass="stigi, even" text="32" GridPane.columnIndex="8" GridPane.rowIndex="4" />
-        <Label styleClass="odd" text="33" GridPane.columnIndex="7" GridPane.rowIndex="4" />
-        <Label styleClass="slanga, even" text="34" GridPane.columnIndex="6" GridPane.rowIndex="4" />
-        <Label styleClass="stigi, odd" text="35" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+        <Label styleClass="even" text="32" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+        <Label styleClass="spilabakid, odd" text="33" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+        <Label styleClass="even" text="34" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+        <Label styleClass="slanga, odd" text="35" GridPane.columnIndex="5" GridPane.rowIndex="4" />
         <Label styleClass="even" text="36" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-        <Label styleClass="odd" text="37" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-        <Label styleClass="slanga, even" text="38" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-        <Label styleClass="odd" text="39" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-        <Label styleClass="even" text="40" GridPane.rowIndex="4" />
+        <Label styleClass="spilabakid, odd" text="37" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <Label styleClass="even" text="38" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Label styleClass="stigi, odd" text="39" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <Label styleClass="eiturmyndin, even" text="40" GridPane.rowIndex="4" />
         <Label styleClass="odd" text="41" GridPane.rowIndex="3" />
-        <Label styleClass="stigi, even" text="42" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-        <Label styleClass="slanga, odd" text="43" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Label styleClass="even" text="42" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Label styleClass="stigi, odd" text="43" GridPane.columnIndex="2" GridPane.rowIndex="3" />
         <Label styleClass="even" text="44" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-        <Label styleClass="odd" text="45" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+        <Label styleClass="spilabakid, odd" text="45" GridPane.columnIndex="4" GridPane.rowIndex="3" />
         <Label styleClass="even" text="46" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-        <Label styleClass="slanga, odd" text="47" GridPane.columnIndex="6" GridPane.rowIndex="3" />
-        <Label styleClass="even" text="48" GridPane.columnIndex="7" GridPane.rowIndex="3" /><Label maxHeight="50.0" maxWidth="50.0" minHeight="98.0" minWidth="88.0" prefHeight="98.0" prefWidth="88.0" styleClass="odd" text="49" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+        <Label styleClass="eiturmyndin, odd" text="47" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+        <Label styleClass="even" text="48" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+        <Label maxHeight="50.0" maxWidth="50.0" minHeight="98.0" minWidth="88.0" prefHeight="98.0" prefWidth="88.0" styleClass="slanga, odd" text="49" GridPane.columnIndex="8" GridPane.rowIndex="3" />
         <Label styleClass="even" text="50" GridPane.columnIndex="9" GridPane.rowIndex="3" />
-        <Label styleClass="stigi, odd" text="51" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+        <Label styleClass="eiturmyndin, odd" text="51" GridPane.columnIndex="9" GridPane.rowIndex="2" />
         <Label styleClass="even" text="52" GridPane.columnIndex="8" GridPane.rowIndex="2" />
-        <Label styleClass="odd" text="53" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+        <Label styleClass="spilabakid, odd" text="53" GridPane.columnIndex="7" GridPane.rowIndex="2" />
         <Label styleClass="even" text="54" GridPane.columnIndex="6" GridPane.rowIndex="2" />
-        <Label styleClass="odd" text="55" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-        <Label styleClass="stigi, even" text="56" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-        <Label styleClass="odd" text="57" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-        <Label styleClass="slanga, even" text="58" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-        <Label styleClass="stigi, odd" text="59" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-        <Label styleClass="even" text="60" GridPane.rowIndex="2" />
+        <Label styleClass="slanga, odd" text="55" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+        <Label styleClass="even" text="56" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <Label styleClass="stigi, odd" text="57" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Label styleClass="even" text="58" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Label styleClass="odd" text="59" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Label styleClass="eiturmyndin, even" text="60" GridPane.rowIndex="2" />
         <Label styleClass="odd" text="61" GridPane.rowIndex="1" />
         <Label styleClass="slanga, even" text="62" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-        <Label styleClass="odd" text="63" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Label styleClass="spilabakid, odd" text="63" GridPane.columnIndex="2" GridPane.rowIndex="1" />
         <Label styleClass="even" text="64" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-        <Label styleClass="odd" text="65" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-        <Label styleClass="stigi, even" text="66" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-        <Label styleClass="slanga, odd" text="67" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-        <Label styleClass="even" text="68" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+        <Label styleClass="eiturmyndin, odd" text="65" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+        <Label styleClass="even" text="66" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+        <Label styleClass="spilabakid, odd" text="67" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+        <Label styleClass="stigi, even" text="68" GridPane.columnIndex="7" GridPane.rowIndex="1" />
         <Label styleClass="odd" text="69" GridPane.columnIndex="8" GridPane.rowIndex="1" />
-        <Label styleClass="even" text="70" GridPane.columnIndex="9" GridPane.rowIndex="1" />
-        <Label styleClass="slanga, odd" text="71" GridPane.columnIndex="9" />
-        <Label styleClass="even" text="72" GridPane.columnIndex="8" />
+        <Label styleClass="slanga, even" text="70" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+        <Label styleClass="odd" text="71" GridPane.columnIndex="9" />
+        <Label styleClass="spilabakid, even" text="72" GridPane.columnIndex="8" />
         <Label styleClass="odd" text="73" GridPane.columnIndex="7" />
-        <Label styleClass="slanga, even" text="74" GridPane.columnIndex="6" />
-        <Label styleClass="odd" text="75" GridPane.columnIndex="5" />
-        <Label styleClass="even" text="76" GridPane.columnIndex="4" />
-        <Label styleClass="odd" text="77" GridPane.columnIndex="3" />
-        <Label styleClass="stigi, even" text="78" GridPane.columnIndex="2" />
-        <Label styleClass="slanga, odd" text="79" GridPane.columnIndex="1" />
+        <Label styleClass="eiturmyndin, even" text="74" GridPane.columnIndex="6" />
+        <Label styleClass="slanga, odd" text="75" GridPane.columnIndex="5" />
+        <Label styleClass="spilabakid, even" text="76" GridPane.columnIndex="4" />
+        <Label styleClass="eiturmyndin, odd" text="77" GridPane.columnIndex="3" />
+        <Label styleClass="spilabakid, even" text="78" GridPane.columnIndex="2" />
+        <Label styleClass="eiturmyndin, odd" text="79" GridPane.columnIndex="1" />
         <Label styleClass="even" text="80" />
         <Button fx:id="fxTeningur" mnemonicParsing="false" onAction="#teningurHandler" styleClass="six" stylesheets="@css/teningur.css" GridPane.columnIndex="9" GridPane.rowIndex="8" />
-        <Button fx:id="fxNyrLeikur" mnemonicParsing="false" onAction="#nyrLeikurHandler" styleClass="button" text="Nýr leikur" GridPane.columnIndex="8" GridPane.rowIndex="8" />
-        <Label fx:id="fxSkilabodTop" maxHeight="100.0" minHeight="100.0" prefHeight="100.0" prefWidth="339.0" styleClass="skilabod" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="8" GridPane.valignment="TOP" />
-        <Label fx:id="fxSkilabodBot" styleClass="skilabod" text="Label" GridPane.rowIndex="8" GridPane.valignment="BOTTOM" />
+        <Button fx:id="fxNyrLeikur" mnemonicParsing="false" onAction="#nyrLeikurHandler" styleClass="button" text="Nýr leikur" GridPane.rowIndex="8" />
+        <Label fx:id="fxSkilabodTop" maxHeight="100.0" minHeight="100.0" prefHeight="100.0" prefWidth="339.0" styleClass="skilabod" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="8" GridPane.valignment="TOP" />
+        <Label fx:id="fxSkilabodBot" maxHeight="79.0" minWidth="126.0" prefHeight="79.0" prefWidth="126.0" styleClass="skilabod" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="8" GridPane.valignment="BOTTOM" />
     </children>
     <padding>
         <Insets topRightBottomLeft="10" />
