@@ -1,5 +1,6 @@
 package com.example.storaverkefnid;
 
+import javafx.beans.binding.Bindings;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -20,6 +21,21 @@ public class VelkominnController {
     @FXML
     private TextField fxGreenName;
 
+    /**
+     * frumstillir viðmótið
+     */
+    public void initialize() {
+        fxHefjaLeik.disableProperty().bind(
+                Bindings.or(
+                        fxBlueName.textProperty().isEmpty(),
+                        fxGreenName.textProperty().isEmpty()));
+    }
+
+    /**
+     * handler fyrir Hefja leik button
+     * @param event ónotað
+     * @throws IOException IOException
+     */
     public void onHefjaLeik(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Bord-view.fxml"));
         Parent root = loader.load();

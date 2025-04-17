@@ -8,7 +8,9 @@ import javafx.scene.control.DialogPane;
 import java.io.IOException;
 
 public class EiturController  extends Dialog<String> {
-
+    /**
+     * constructor fyrir EiturController
+     */
     public EiturController(){
         setDialogPane(eiturDialog());
         setResultConverter(b -> {
@@ -18,6 +20,11 @@ public class EiturController  extends Dialog<String> {
             return null;
         });
     }
+
+    /**
+     * Skilar viðeigandi DialogPane
+     * @return DialogPane úr Eitur-view.fxml
+     */
     public DialogPane eiturDialog() {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Eitur-view.fxml"));
         try {

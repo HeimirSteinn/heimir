@@ -6,6 +6,7 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
 
 <GridPane fx:id="fxBord" prefHeight="834.0" prefWidth="910.0" stylesheets="@css/slanga.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.storaverkefnid.BordController">
     <columnConstraints>
@@ -36,7 +37,7 @@
     <children>
         <Label maxHeight="50.0" maxWidth="50.0" minHeight="98.0" minWidth="88.0" prefHeight="98.0" prefWidth="88.0" styleClass="odd" text="1" GridPane.rowIndex="7" />
         <Label styleClass="eiturmyndin, even" text="2" GridPane.columnIndex="1" GridPane.rowIndex="7" />
-        <Label styleClass="stigi, odd" text="3" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+        <Label styleClass="odd" text="3" GridPane.columnIndex="2" GridPane.rowIndex="7" />
         <Label styleClass="even" text="4" GridPane.columnIndex="3" GridPane.rowIndex="7" />
         <Label styleClass="spilabakid, odd" text="5" GridPane.columnIndex="4" GridPane.rowIndex="7" />
         <Label styleClass="even" text="6" GridPane.columnIndex="5" GridPane.rowIndex="7" />
@@ -114,10 +115,15 @@
         <Label styleClass="spilabakid, even" text="78" GridPane.columnIndex="2" />
         <Label styleClass="eiturmyndin, odd" text="79" GridPane.columnIndex="1" />
         <Label styleClass="even" text="80" />
-        <Button fx:id="fxTeningur" mnemonicParsing="false" onAction="#teningurHandler" styleClass="six" stylesheets="@css/teningur.css" GridPane.columnIndex="9" GridPane.rowIndex="8" />
-        <Button fx:id="fxNyrLeikur" mnemonicParsing="false" onAction="#nyrLeikurHandler" styleClass="button" text="Nýr leikur" GridPane.rowIndex="8" />
-        <Label fx:id="fxSkilabodTop" maxHeight="100.0" minHeight="100.0" prefHeight="100.0" prefWidth="339.0" styleClass="skilabod" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="8" GridPane.valignment="TOP" />
-        <Label fx:id="fxSkilabodBot" maxHeight="79.0" minWidth="126.0" prefHeight="79.0" prefWidth="126.0" styleClass="skilabod" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="8" GridPane.valignment="BOTTOM" />
+        <Button fx:id="fxTeningur" minHeight="88.0" minWidth="88.0" mnemonicParsing="false" onAction="#teningurHandler" prefHeight="88.0" prefWidth="88.0" styleClass="six" stylesheets="@css/teningur.css" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+
+        <Label fx:id="fxSkilabodTop" maxHeight="100.0" minHeight="100.0" minWidth="-Infinity" prefHeight="50.0" prefWidth="364.0" styleClass="skilabod" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="8" GridPane.valignment="TOP" />
+        <Label fx:id="fxSkilabodBot" maxHeight="87.0" minWidth="126.0" prefHeight="79.0" prefWidth="389.0" styleClass="skilabod" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="8" GridPane.valignment="BOTTOM" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Næstur- &gt;" GridPane.columnIndex="2" GridPane.rowIndex="8" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="15.0" left="20.0" />
+         </GridPane.margin>
+      </Text>
     </children>
     <padding>
         <Insets topRightBottomLeft="10" />

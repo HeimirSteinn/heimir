@@ -24,6 +24,7 @@ public class Teningur {
      */
     public void kasta(){
         int kast = random.nextInt(MAX) + 1;
+        talaProperty.set(0);
         talaProperty.set(kast);
     }
 

@@ -4,6 +4,7 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * vinnlus klasi fyrir leikur vinnsluklasann
@@ -45,7 +46,7 @@ public class SlongurStigar {
      * setur leik lokið ef reiturinn er nákvæmlega 24
      * @param reitur reiturinn sem leikmaður lendir á
      */
-    public void setSlonguSkilabod(int reitur) {
+    public int setSlonguSkilabod(int reitur) {
         if (reitur == 80) {
             setSlonguSkilabod("Leik Lokið!");
         }
@@ -56,17 +57,19 @@ public class SlongurStigar {
             } else {
                 setSlonguSkilabod("Slanga! Frá " + reitur + " á reit " + value + "!");
             }
+
         }
         if (eiturreitur.isEiturReitur(reitur)){
             setSlonguSkilabod("EITUR REITUR!");
-            eiturreitur.addEiturCounter();
             System.out.println(eiturreitur.eiturCounterProperty().get() + " eitur");
+            return 1;
         }
         if (spilareitir.isSpilareitur(reitur)){
             setSlonguSkilabod("Spila REITUR!");
-            spilareitir.addSpilaCounter();
             System.out.println(spilareitir.spilaCounterProperty().get() + "spila");
+            return -1;
         }
+        return 0;
     }
 
     /**
@@ -117,10 +120,50 @@ public class SlongurStigar {
     public void setSlonguSkilabod(String s) {
         slonguSkilabod.set(s);
     }
+
+    /**
+     * lætur vita ef breyting verður á eiturcounter
+     * @return SimpleIntegerProperty
+     */
     public SimpleIntegerProperty eiturCounterProperty() {
         return eiturreitur.eiturCounterProperty();
     }
+
+    /**
+     * lætur vita ef breyting verður á spilacounter
+     * @return SimpleIntegerProperty
+     */
     public SimpleIntegerProperty spilaCounterProperty(){
         return spilareitir.spilaCounterProperty();
+    }
+
+    /**
+     * kallar á aðferð sem bætir við spilacounter
+     */
+    public void addToSpilCounter(){
+        spilareitir.addSpilaCounter();
+    }
+
+    /**
+     * kallar á aðferð sem bætir við eiturcounter
+     */
+    public void addToEiturCounter(){
+        eiturreitur.addEiturCounter();
+    }
+
+    /**
+     * skilar lista af eiturreitum
+     * @return Lista af eiturreitum
+     */
+    public List<Integer> getEiturReitir(){
+        return eiturreitur.getEiturReitir();
+    }
+
+    /**
+     * skilar lista af spilareitum
+     * @return Lista af spilareitum
+     */
+    public List<Integer> getSpilaReitir(){
+        return spilareitir.getSpilareitir();
     }
 }

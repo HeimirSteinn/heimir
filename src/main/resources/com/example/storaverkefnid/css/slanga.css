@@ -1,7 +1,7 @@
 .root {
 -fx-background-color: #9EA3BF;
 }
-.button{
+.butto{
 -fx-alignment: center;
 -fx-border-color: black;
 -fx-background-color: black;
@@ -15,7 +15,7 @@
 .skilabod{
 -fx-font-family: "Arial, Helvetica, sans-serif";
 -fx-font-size: 20px;
--fx-min-width: 300px;
+-fx-min-width: 356px;
 -fx-min-height: 50px;
 -fx-max-height: 50px;
 -fx-alignment: center;
@@ -64,7 +64,7 @@
 .spilabakid{
 -fx-background-image: url("SpilMyndir/spilabak.PNG");
 }
-.blue, .green, bluegreen{
+.blue, .green, .bluegreen, .blueeitur, .greeneitur, .bluegreeneitur, .bluespil, .greenspil, .bluegreenspil{
 -fx-background-size: cover;
 -fx-background-position: center;
 -fx-background-repeat: no-repeat;
@@ -73,12 +73,29 @@
 }
 
 .blue{
--fx-background-image: url("PNG/BlueStickMan.png");
-
+-fx-background-image: url("PNG/blue.png");
 }
 .green{
--fx-background-image: url("PNG/GreenStickMan.png");
+-fx-background-image: url("PNG/green.png");
 }
 .bluegreen{
 -fx-background-image: url("PNG/bluegreen.png");
 }
+.blueeitur{
+ -fx-background-image: url("PNG/blueeitur.png");
+ }
+ .greeneitur{
+ -fx-background-image: url("PNG/greeneitur.png");
+ }
+ .bluegreeneitur{
+ -fx-background-image: url("PNG/bluegreeneitur.png");
+ }
+ .bluespil{
+ -fx-background-image: url("PNG/bluespil.png");
+ }
+ .greenspil{
+ -fx-background-image: url("PNG/greenspil.png");
+ }
+ .bluegreenspil{
+ -fx-background-image: url("PNG/bluegreenspil.png");
+ }

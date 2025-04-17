@@ -1,25 +1,171 @@
 .root{
 -fx-font-family: serif;
+-fx-background-color: #f1e7ef;
 }
-.hjarta, .spadi, .tigull, .lauf, .spilabak{
+.h1, .h2, .h3, .h4, .h5, .h6, .h7, .h8, .h9, .h10, .h11, .h12, .h13, .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11, .s12, .s13, .t1, .t2, .t3, .t4, .t5, .t6, .t7, .t8, .t9, .t10, .t11, .t12, .t13, .l1, .l2, .l3, .l4, .l5, .l6, .l7, .l8, .l9, .l10, .l11, .l12, .l13, .spilabak{
 -fx-background-size: cover;
 -fx-background-position: center;
 -fx-background-repeat: no-repeat;
 -fx-min-width: 100px;
 -fx-min-height: 100px;
 }
-.hjarta{
--fx-background-image: url("SpilMyndir/hjarta.PNG");
+.h1{
+-fx-background-image: url("SpilMyndir/h1.PNG");
 }
-.spadi{
--fx-background-image: url("SpilMyndir/spadi.PNG");
+.h2{
+-fx-background-image: url("SpilMyndir/h2.PNG");
 }
-.tigull{
--fx-background-image: url("SpilMyndir/tigull.PNG");
+.h3{
+-fx-background-image: url("SpilMyndir/h3.PNG");
 }
-.lauf{
--fx-background-image: url("SpilMyndir/lauf.PNG");
+.h4{
+-fx-background-image: url("SpilMyndir/h4.PNG");
 }
+.h5{
+-fx-background-image: url("SpilMyndir/h5.PNG");
+}
+.h6{
+-fx-background-image: url("SpilMyndir/h6.PNG");
+}
+.h7{
+-fx-background-image: url("SpilMyndir/h7.PNG");
+}
+.h8{
+-fx-background-image: url("SpilMyndir/h8.PNG");
+}
+.h9{
+-fx-background-image: url("SpilMyndir/h9.PNG");
+}
+.h10{
+-fx-background-image: url("SpilMyndir/h10.PNG");
+}
+.h11{
+-fx-background-image: url("SpilMyndir/h11.PNG");
+}
+.h12{
+-fx-background-image: url("SpilMyndir/h12.PNG");
+}
+.h13{
+-fx-background-image: url("SpilMyndir/h13.PNG");
+}
+.s1{
+-fx-background-image: url("SpilMyndir/s1.PNG");
+}
+.s2{
+-fx-background-image: url("SpilMyndir/s2.PNG");
+}
+.s3{
+-fx-background-image: url("SpilMyndir/s3.PNG");
+}
+.s4{
+-fx-background-image: url("SpilMyndir/s4.PNG");
+}
+.s5{
+-fx-background-image: url("SpilMyndir/s5.PNG");
+}
+.s6{
+-fx-background-image: url("SpilMyndir/s6.PNG");
+}
+.s7{
+-fx-background-image: url("SpilMyndir/s7.PNG");
+}
+.s8{
+-fx-background-image: url("SpilMyndir/s8.PNG");
+}
+.s9{
+-fx-background-image: url("SpilMyndir/s9.PNG");
+}
+.s10{
+-fx-background-image: url("SpilMyndir/s10.PNG");
+}
+.s11{
+-fx-background-image: url("SpilMyndir/s11.PNG");
+}
+.s12{
+-fx-background-image: url("SpilMyndir/s12.PNG");
+}
+.s13{
+-fx-background-image: url("SpilMyndir/s13.PNG");
+}
+.t1{
+-fx-background-image: url("SpilMyndir/t1.PNG");
+}
+.t2{
+-fx-background-image: url("SpilMyndir/t2.PNG");
+}
+.t3{
+-fx-background-image: url("SpilMyndir/t3.PNG");
+}
+.t4{
+-fx-background-image: url("SpilMyndir/t4.PNG");
+}
+.t5{
+-fx-background-image: url("SpilMyndir/t5.PNG");
+}
+.t6{
+-fx-background-image: url("SpilMyndir/t6.PNG");
+}
+.t7{
+-fx-background-image: url("SpilMyndir/t7.PNG");
+}
+.t8{
+-fx-background-image: url("SpilMyndir/t8.PNG");
+}
+.t9{
+-fx-background-image: url("SpilMyndir/t9.PNG");
+}
+.t10{
+-fx-background-image: url("SpilMyndir/t10.PNG");
+}
+.t11{
+-fx-background-image: url("SpilMyndir/t11.PNG");
+}
+.t12{
+-fx-background-image: url("SpilMyndir/t12.PNG");
+}
+.t13{
+-fx-background-image: url("SpilMyndir/t13.PNG");
+}
+.l1{
+-fx-background-image: url("SpilMyndir/l1.PNG");
+}
+.l2{
+-fx-background-image: url("SpilMyndir/l2.PNG");
+}
+.l3{
+-fx-background-image: url("SpilMyndir/l3.PNG");
+}
+.l4{
+-fx-background-image: url("SpilMyndir/l4.PNG");
+}
+.l5{
+-fx-background-image: url("SpilMyndir/l5.PNG");
+}
+.l6{
+-fx-background-image: url("SpilMyndir/l6.PNG");
+}
+.l7{
+-fx-background-image: url("SpilMyndir/l7.PNG");
+}
+.l8{
+-fx-background-image: url("SpilMyndir/l8.PNG");
+}
+.l9{
+-fx-background-image: url("SpilMyndir/l9.PNG");
+}
+.l10{
+-fx-background-image: url("SpilMyndir/l10.PNG");
+}
+.l11{
+-fx-background-image: url("SpilMyndir/l11.PNG");
+}
+.l12{
+-fx-background-image: url("SpilMyndir/l12.PNG");
+}
+.l13{
+-fx-background-image: url("SpilMyndir/l13.PNG");
+}
+
 .spilabak{
 -fx-background-image: url("SpilMyndir/spilabak.PNG");
 }

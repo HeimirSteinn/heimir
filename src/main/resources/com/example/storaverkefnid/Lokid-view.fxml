@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<?import javafx.scene.control.ButtonType?>
+<DialogPane prefHeight="455.0" prefWidth="417.0" style="-fx-background-color: #f1e7ef;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <header>
+      <AnchorPane prefHeight="318.0" prefWidth="464.0">
+         <children>
+            <Label layoutX="136.0" layoutY="42.0" style="-fx-font-weight: bold;" text="Til Hamingju!!!">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="69.0" layoutY="136.0" text="Allir i hinu liðinu þurfa að taka 10 sopa">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="71.0" layoutY="169.0" prefHeight="128.0" prefWidth="276.0" />
+            <Label fx:id="fxVannLeik" layoutX="141.0" layoutY="97.0" text="Þessi Vann leikinn!!!">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </header>
+   <content>
+      <AnchorPane prefHeight="143.0" prefWidth="453.0">
+         <children>
+            <Label layoutX="128.0" layoutY="14.0" text="Villtu taka annan leik?">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+   <ButtonType buttonData="OK_DONE" text="Nýr Leikur"/>
+   <ButtonType buttonData="CANCEL_CLOSE"  text="Hætta"/>
+</DialogPane>
